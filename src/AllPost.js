@@ -76,7 +76,7 @@ export default class AllPost extends Component {
             key={index}
           >
             <a
-              href="#"
+              href={post.id}
               className="list-group-item list-group-item-action flex-column align-items-start"
             >
               <div className="d-flex w-100 justify-content-between">

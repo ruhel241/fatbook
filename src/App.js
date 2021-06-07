@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import { Profile } from "./Profile.js";
 // import "./Edit.js";
@@ -17,6 +17,7 @@ import Route from "react-router-dom/Route";
 
 const posts = [
   {
+    id: 1,
     name: "Md.Ruhel Khan",
     title: "Hello EveryOne, How r u?",
     content:
@@ -24,6 +25,7 @@ const posts = [
   },
 
   {
+    id: 2,
     name: "Md.Raj Khan",
     title: "Hi, i'm fin9 and u?",
     content:
@@ -31,6 +33,7 @@ const posts = [
   },
 
   {
+    id: 3,
     name: "Md.Suhel Khan",
     title: "Hello EveryOne, How r u?",
     content:
